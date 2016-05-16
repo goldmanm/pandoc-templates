@@ -206,6 +206,12 @@ $if(institute)$
 $endif$
 \date{$date$}
 
+%classes mark uses frequently
+
+\usepackage[version=4]{mhchem}
+
+
+
 \begin{document}
 $if(title)$
 \maketitle
