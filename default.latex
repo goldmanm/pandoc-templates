@@ -50,7 +50,7 @@ $endif$
 \IfFileExists{microtype.sty}{%
 \usepackage{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
+
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $endif$
@@ -208,7 +208,19 @@ $endif$
 
 \usepackage[version=4]{mhchem}
 
+\usepackage{enumitem}
+\renewlist{itemize}{itemize}{9}
+\setlistdepth{9}
 
+\setlist[itemize,1]{label=\bullet}
+\setlist[itemize,2]{label=\bullet}
+\setlist[itemize,3]{label=\bullet}
+\setlist[itemize,4]{label=\bullet}
+\setlist[itemize,5]{label=\bullet}
+\setlist[itemize,6]{label=\bullet}
+\setlist[itemize,7]{label=\bullet}
+\setlist[itemize,8]{label=\bullet}
+\setlist[itemize,9]{label=\bullet}
 
 \begin{document}
 $if(title)$
