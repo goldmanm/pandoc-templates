@@ -209,7 +209,7 @@ $endif$
 %classes mark uses frequently
 
 \usepackage[version=4]{mhchem}
-
+\usepackage{tikz-cd}
 \usepackage{enumitem}
 \setlistdepth{9}
 
