@@ -211,6 +211,7 @@ $endif$
 \usepackage[version=4]{mhchem}
 \usepackage{tikz-cd}
 \usepackage{enumitem}
+\usepackage{qtree}
 \setlistdepth{9}
 
 \setlist[itemize,1]{label=\(\bullet\)}
