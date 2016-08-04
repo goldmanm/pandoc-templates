@@ -226,6 +226,17 @@ $endif$
 
 \renewlist{itemize}{itemize}{9}
 
+% Overwrite \begin{figure}[htbp] with \begin{figure}[H]
+\usepackage{float}
+\let\origfigure=\figure
+\let\endorigfigure=\endfigure
+\renewenvironment{figure}[1][]{%
+  \origfigure[H]
+}{%
+  \endorigfigure
+}
+
+
 \begin{document}
 $if(title)$
 \maketitle
