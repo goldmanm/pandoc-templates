@@ -208,6 +208,9 @@ $endif$
 
 \usepackage[version=4]{mhchem}
 \usepackage{tikz-cd}
+\usepackage{qtree}
+
+
 \begin{document}
 $if(title)$
 \frame{\titlepage}
