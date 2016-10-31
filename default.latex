@@ -56,6 +56,8 @@ $endif$
 }{}
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+$else$
+\usepackage[margin=.8in]{geometry}
 $endif$
 % adding import to xcolor before loading hyperref to avoid bugs
 \usepackage[dvipsnames,usenames]{xcolor}
